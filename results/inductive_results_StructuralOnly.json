@@ -1,0 +1,107 @@
+[
+  {
+    "model_variant": "StructuralOnly",
+    "unseen_frac": 0.1,
+    "n_seen_drugs": 2694,
+    "n_unseen_drugs": 300,
+    "train_pairs": 2143915,
+    "inductive_pairs": 26209,
+    "semi_inductive_pairs": 475051,
+    "inductive": {
+      "auroc": 0.6800138170354063,
+      "auprc": 0.5193689404027961,
+      "f1": 0.4187192118226601,
+      "accuracy": 0.7118547063985654
+    },
+    "semi_inductive": {
+      "auroc": 0.8256646074252244,
+      "auprc": 0.706413697743924,
+      "f1": 0.633757795987214,
+      "accuracy": 0.7778659554447839
+    }
+  },
+  {
+    "model_variant": "StructuralOnly",
+    "unseen_frac": 0.2,
+    "n_seen_drugs": 2395,
+    "n_unseen_drugs": 599,
+    "train_pairs": 1689899,
+    "inductive_pairs": 106528,
+    "semi_inductive_pairs": 848748,
+    "inductive": {
+      "auroc": 0.6679188638707022,
+      "auprc": 0.5292315986056819,
+      "f1": 0.4154993696596162,
+      "accuracy": 0.6866363772904777
+    },
+    "semi_inductive": {
+      "auroc": 0.8228060401199582,
+      "auprc": 0.70646062334677,
+      "f1": 0.6377335338525885,
+      "accuracy": 0.7718144843934831
+    }
+  },
+  {
+    "model_variant": "StructuralOnly",
+    "unseen_frac": 0.3,
+    "n_seen_drugs": 2095,
+    "n_unseen_drugs": 899,
+    "train_pairs": 1293766,
+    "inductive_pairs": 238993,
+    "semi_inductive_pairs": 1112416,
+    "inductive": {
+      "auroc": 0.6919553390110017,
+      "auprc": 0.5575175459158805,
+      "f1": 0.4665430347987346,
+      "accuracy": 0.6930746925642174
+    },
+    "semi_inductive": {
+      "auroc": 0.8364689592472591,
+      "auprc": 0.7311941388566537,
+      "f1": 0.6594878115584771,
+      "accuracy": 0.77648469637258
+    }
+  },
+  {
+    "model_variant": "StructuralOnly",
+    "unseen_frac": 0.4,
+    "n_seen_drugs": 1796,
+    "n_unseen_drugs": 1198,
+    "train_pairs": 954784,
+    "inductive_pairs": 421727,
+    "semi_inductive_pairs": 1268664,
+    "inductive": {
+      "auroc": 0.6814598291057787,
+      "auprc": 0.532148474773646,
+      "f1": 0.4363763829554168,
+      "accuracy": 0.6949851444180714
+    },
+    "semi_inductive": {
+      "auroc": 0.828496051520317,
+      "auprc": 0.717723306962559,
+      "f1": 0.6449358633225711,
+      "accuracy": 0.7722809191401349
+    }
+  },
+  {
+    "model_variant": "StructuralOnly",
+    "unseen_frac": 0.5,
+    "n_seen_drugs": 1497,
+    "n_unseen_drugs": 1497,
+    "train_pairs": 663106,
+    "inductive_pairs": 659807,
+    "semi_inductive_pairs": 1322262,
+    "inductive": {
+      "auroc": 0.6687896574457395,
+      "auprc": 0.5217192883689579,
+      "f1": 0.44295517219265057,
+      "accuracy": 0.6840530640020491
+    },
+    "semi_inductive": {
+      "auroc": 0.8199215832627407,
+      "auprc": 0.7078979676935608,
+      "f1": 0.6424826544057348,
+      "accuracy": 0.7652447094448755
+    }
+  }
+]

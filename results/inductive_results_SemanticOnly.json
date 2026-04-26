@@ -1,0 +1,107 @@
+[
+  {
+    "model_variant": "SemanticOnly",
+    "unseen_frac": 0.1,
+    "n_seen_drugs": 2694,
+    "n_unseen_drugs": 300,
+    "train_pairs": 2143915,
+    "inductive_pairs": 26209,
+    "semi_inductive_pairs": 475051,
+    "inductive": {
+      "auroc": 0.6385019305560667,
+      "auprc": 0.44594979404674556,
+      "f1": 0.3392025266482432,
+      "accuracy": 0.680682208401694
+    },
+    "semi_inductive": {
+      "auroc": 0.8016477317699342,
+      "auprc": 0.6477857198432093,
+      "f1": 0.5951013374907689,
+      "accuracy": 0.7507046611837466
+    }
+  },
+  {
+    "model_variant": "SemanticOnly",
+    "unseen_frac": 0.2,
+    "n_seen_drugs": 2395,
+    "n_unseen_drugs": 599,
+    "train_pairs": 1689899,
+    "inductive_pairs": 106528,
+    "semi_inductive_pairs": 848748,
+    "inductive": {
+      "auroc": 0.6120917402612255,
+      "auprc": 0.4616549276047598,
+      "f1": 0.33813184422365655,
+      "accuracy": 0.6573107539801742
+    },
+    "semi_inductive": {
+      "auroc": 0.7878248550505811,
+      "auprc": 0.6463004946029434,
+      "f1": 0.5876467706740689,
+      "accuracy": 0.7381649205653503
+    }
+  },
+  {
+    "model_variant": "SemanticOnly",
+    "unseen_frac": 0.3,
+    "n_seen_drugs": 2095,
+    "n_unseen_drugs": 899,
+    "train_pairs": 1293766,
+    "inductive_pairs": 238993,
+    "semi_inductive_pairs": 1112416,
+    "inductive": {
+      "auroc": 0.6279340611416188,
+      "auprc": 0.4744518422773659,
+      "f1": 0.3674681912448854,
+      "accuracy": 0.6694673065738327
+    },
+    "semi_inductive": {
+      "auroc": 0.7968227460083124,
+      "auprc": 0.6582115367348385,
+      "f1": 0.6038102131683785,
+      "accuracy": 0.7431545393090355
+    }
+  },
+  {
+    "model_variant": "SemanticOnly",
+    "unseen_frac": 0.4,
+    "n_seen_drugs": 1796,
+    "n_unseen_drugs": 1198,
+    "train_pairs": 954784,
+    "inductive_pairs": 421727,
+    "semi_inductive_pairs": 1268664,
+    "inductive": {
+      "auroc": 0.6168771644491953,
+      "auprc": 0.45499048568315636,
+      "f1": 0.36838034762079214,
+      "accuracy": 0.6688544959179754
+    },
+    "semi_inductive": {
+      "auroc": 0.7897875773367031,
+      "auprc": 0.6482490326145571,
+      "f1": 0.6012397686661799,
+      "accuracy": 0.738258514468764
+    }
+  },
+  {
+    "model_variant": "SemanticOnly",
+    "unseen_frac": 0.5,
+    "n_seen_drugs": 1497,
+    "n_unseen_drugs": 1497,
+    "train_pairs": 663106,
+    "inductive_pairs": 659807,
+    "semi_inductive_pairs": 1322262,
+    "inductive": {
+      "auroc": 0.6133870750678427,
+      "auprc": 0.45613325885120043,
+      "f1": 0.36833538925438597,
+      "accuracy": 0.6647292314267657
+    },
+    "semi_inductive": {
+      "auroc": 0.7880561332654786,
+      "auprc": 0.6466293227510329,
+      "f1": 0.6004296332298606,
+      "accuracy": 0.7363805357788396
+    }
+  }
+]

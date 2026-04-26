@@ -1,0 +1,107 @@
+[
+  {
+    "model_variant": "NoNeighborhood",
+    "unseen_frac": 0.1,
+    "n_seen_drugs": 2694,
+    "n_unseen_drugs": 300,
+    "train_pairs": 2143915,
+    "inductive_pairs": 26209,
+    "semi_inductive_pairs": 475051,
+    "inductive": {
+      "auroc": 0.6289983994160672,
+      "auprc": 0.4355393199569755,
+      "f1": 0.3432338115548662,
+      "accuracy": 0.6768667251707429
+    },
+    "semi_inductive": {
+      "auroc": 0.7894735193773568,
+      "auprc": 0.6331113769838876,
+      "f1": 0.5849157272627777,
+      "accuracy": 0.7445242721307818
+    }
+  },
+  {
+    "model_variant": "NoNeighborhood",
+    "unseen_frac": 0.2,
+    "n_seen_drugs": 2395,
+    "n_unseen_drugs": 599,
+    "train_pairs": 1689899,
+    "inductive_pairs": 106528,
+    "semi_inductive_pairs": 848748,
+    "inductive": {
+      "auroc": 0.6171748422940239,
+      "auprc": 0.47015897493463227,
+      "f1": 0.3531790769671266,
+      "accuracy": 0.6606995343947131
+    },
+    "semi_inductive": {
+      "auroc": 0.7859438056716207,
+      "auprc": 0.6497389340938297,
+      "f1": 0.5894784331929538,
+      "accuracy": 0.7405531441605754
+    }
+  },
+  {
+    "model_variant": "NoNeighborhood",
+    "unseen_frac": 0.3,
+    "n_seen_drugs": 2095,
+    "n_unseen_drugs": 899,
+    "train_pairs": 1293766,
+    "inductive_pairs": 238993,
+    "semi_inductive_pairs": 1112416,
+    "inductive": {
+      "auroc": 0.6302967858729308,
+      "auprc": 0.47475423907147485,
+      "f1": 0.3836686973109347,
+      "accuracy": 0.6647265819500989
+    },
+    "semi_inductive": {
+      "auroc": 0.7946111993537481,
+      "auprc": 0.6561801688397915,
+      "f1": 0.605837991744032,
+      "accuracy": 0.7421486206598971
+    }
+  },
+  {
+    "model_variant": "NoNeighborhood",
+    "unseen_frac": 0.4,
+    "n_seen_drugs": 1796,
+    "n_unseen_drugs": 1198,
+    "train_pairs": 954784,
+    "inductive_pairs": 421727,
+    "semi_inductive_pairs": 1268664,
+    "inductive": {
+      "auroc": 0.616847667454277,
+      "auprc": 0.45619373209780956,
+      "f1": 0.37567461310268413,
+      "accuracy": 0.6686387165156606
+    },
+    "semi_inductive": {
+      "auroc": 0.7869987802597571,
+      "auprc": 0.6472792490151207,
+      "f1": 0.5995068183987425,
+      "accuracy": 0.7387149000838678
+    }
+  },
+  {
+    "model_variant": "NoNeighborhood",
+    "unseen_frac": 0.5,
+    "n_seen_drugs": 1497,
+    "n_unseen_drugs": 1497,
+    "train_pairs": 663106,
+    "inductive_pairs": 659807,
+    "semi_inductive_pairs": 1322262,
+    "inductive": {
+      "auroc": 0.6164413475303508,
+      "auprc": 0.45602279220915026,
+      "f1": 0.3785153663245719,
+      "accuracy": 0.6628938462307917
+    },
+    "semi_inductive": {
+      "auroc": 0.7869844515279972,
+      "auprc": 0.6458736571815455,
+      "f1": 0.602958757403712,
+      "accuracy": 0.7357694617254371
+    }
+  }
+]
