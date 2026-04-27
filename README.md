@@ -309,7 +309,7 @@ If you use this code or the results in your work, please cite:
 @misc{samanta2024neighbourhood,
   title        = {Neighbourhood-Aware Graph Attention for Drug-Drug Interaction Prediction},
   author       = {Samanta, Parthsarathi and Prabhu, Sidhanth and Modi, Shrey and Hegde, Sindhoor},
-  year         = {2024},
+  year         = {2026},
   howpublished = {Course Project, AID 829 / Natural Language Processing, International Institute of Information Technology Bangalore (IIIT-B)},
   url          = {https://github.com/parth-samanta/Neighborhood-Aware-Graph-Attention-for-DDI}
 }
