@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-2.0%2B-orange)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 A multimodal drug–drug interaction (DDI) prediction framework that fuses **FastText semantic embeddings** (trained on PubMed abstracts) with **TransE structural embeddings** (trained on the UMLS knowledge graph) via a learned per-dimension gated fusion mechanism, further contextualised by a **relation-aware multi-head neighbourhood attention** module over local KG context.
 
