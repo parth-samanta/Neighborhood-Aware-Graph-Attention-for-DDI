@@ -1,4 +1,4 @@
-# Neighbourhood-Aware Graph Attention for Drug-Drug Interaction Prediction
+# Neighborhood-Aware Graph Attention for Drug-Drug Interaction Prediction
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/pytorch-2.0%2B-orange)](https://pytorch.org/)
@@ -306,7 +306,7 @@ Performance degrades gracefully across a fivefold increase in the unseen drug fr
 If you use this code or the results in your work, please cite:
 
 ```bibtex
-@misc{samanta2024neighbourhood,
+@misc{samanta2026neighbourhood,
   title        = {Neighbourhood-Aware Graph Attention for Drug-Drug Interaction Prediction},
   author       = {Samanta, Parthsarathi and Prabhu, Sidhanth and Modi, Shrey and Hegde, Sindhoor},
   year         = {2026},
